@@ -120,8 +120,3 @@ def chat():
 
     reply, status_code = _generate_mock_ai_response(stripped)
     return jsonify({"response": reply}), status_code
-
-
-def _unsafe_debug_helper(expr: str):
-    return eval(expr)
-
