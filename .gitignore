@@ -1,0 +1,27 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local secrets and environment files
+.env
+.env.*
+
+# Generated security reports (uploaded via GitHub Actions Artifacts)
+reports/*.json
+reports/ai-security-report.md
+reports/*.html
+reports/*.md
+!reports/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
